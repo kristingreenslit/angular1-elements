@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Angular 1 Elements</title>
+	<link rel="stylesheet" href="app/app.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script src="app/app.js"></script>
+</head>
+<body>
+<!-- <body ng-controller="appController"> -->
+<!-- <p>Test: {{5 + 5}}</p> -->
+	<div id="sampleForm">
+		<form>
+
+			<fieldset>
+				<legend>Input</legend>
+      				<label for="first-name">Input Label</label>
+      				<input name="firstName" type="text">
+			</fieldset>
+
+			<fieldset>
+				<legend>Text Area</legend>
+				<label for="text-area">Text Area Label</label>
+  					<textarea name="textArea"></textarea>
+			</fieldset>
+
+			<fieldset>
+				<legend>Dropdown</legend>
+				<label for="dropdown-options">Dropdown Label</label>
+				    <select name="dropdownOptions">
+				     	<option value="value1">Option A</option>
+				     	<option value="value2">Option B</option>
+				     	<option value="value3">Option C</option>
+				    </select>
+			</fieldset>
+
+			<fieldset>
+			    <legend>Radio Buttons</legend>
+			    <ul>
+			    	<li>
+			        	<input type="radio" checked name="buttons" value="value1">
+			        	<label for="optionA">Option A</label>
+			      	</li>
+			    	<li>
+			        	<input type="radio" checked name="buttons" value="value2">
+			        	<label for="optionB">Option B</label>
+			      	</li>
+			    	<li>
+			        	<input type="radio" checked name="buttons" value="value3">
+			        	<label for="optionC">Option C</label>
+			      	</li>
+			    </ul>
+		  	</fieldset>
+
+			<fieldset>
+			    <legend>Checkboxes</legend>
+			    <ul>
+			     	<li>
+			        	<input type="checkbox" name="checkbox1" value="value1" checked>
+			        	<label for="optionA">Option A</label>
+			     	</li>
+			     	<li>
+			       		<input type="checkbox" name="checkbox2" value="value2" checked>
+			    		<label for="optionB">Option B</label>
+			      	</li>
+			      	<li>
+			        	<input type="checkbox" name="checkbox3" value="value3" checked>
+			        	<label for="optionC">Option C</label>
+			      	</li>
+		    	</ul>
+	  		</fieldset>
+
+		</form>	
+	</div>
+</body>
+</html>
